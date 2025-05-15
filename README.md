@@ -17,7 +17,7 @@ NowGo-LLM is an advanced AI system designed to address the lack of contextualiza
 *   **Backend:** Python, FastAPI
 *   **LLM Interaction:** OpenAI API (initially GPT-4-turbo, designed for LLaMA 3 interoperability)
 *   **Orchestrator & Middleware (Conceptual - to be potentially split or integrated):** Logic primarily in Python backend; Node.js/Next.js considered for specific middleware tasks if needed.
-*   **Frontend (Conceptual):** React (or Lovable)
+*   **Frontend (Conceptual):** React 
 *   **Vector Database (for Multi-RAG):** Pinecone (or similar)
 *   **Document Processing & Embedding:** LangChain or LlamaIndex
 *   **Environment Management:** Python Virtual Environments, Docker (for deployment)
@@ -26,7 +26,7 @@ NowGo-LLM is an advanced AI system designed to address the lack of contextualiza
 
 The NowGo-LLM system is built on a modular architecture:
 
-1.  **Frontend:** (Conceptual) A user-facing dashboard (React/Lovable) for interaction, onboarding, and displaying results.
+1.  **Frontend:** (Conceptual) A user-facing dashboard (React) for interaction, onboarding, and displaying results.
 2.  **Orchestrator (Python Backend):** This core component, residing within the Python backend, is responsible for:
     *   **Context Collection:** Gathering user profile, company profile (sector, stage), interaction history, and module accessed via the `ContextManager`.
     *   **Persona Selection:** Dynamically selecting the most appropriate `AgentPersona` (e.g., Strategy Consultant, Legal Expert) based on the collected context.
