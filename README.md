@@ -183,7 +183,7 @@ Copyright (c) 2024 NowGo Holding. All rights reserved.
 
 ## Contact
 
-(Details to be added if desired)
+helio@nowgo.com.br
 
 =======
 # NowGo-LLM
