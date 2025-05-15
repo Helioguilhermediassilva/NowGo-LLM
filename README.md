@@ -179,8 +179,6 @@ We welcome contributions! Please refer to `CONTRIBUTING.md` (to be created) for 
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE.md` file for details.
-
 Copyright (c) 2024 NowGo Holding. All rights reserved.
 
 ## Contact
